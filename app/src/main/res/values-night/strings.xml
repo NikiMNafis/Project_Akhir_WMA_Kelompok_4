@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">TestBridgeOrganizer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="lorem">Lorem ipsum dolor sit amet, \n consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
+    <string name="nav_drawer_open">Open navigation drawer</string>
+    <string name="nav_drawer_close">Close navigation drawer</string>
+    <string name="name_bridge">Bridge Organizer &amp; Bridge Cinematography</string>
+    <string name="our_vision">Memberikan pelayanan terbaik kepada client dan berusaha untuk mengerti keinginan dan tujuan client sehingga
+    client bisa merasa puas dalam bekerja sama dengan kami untuk mencapai target client</string>
+    <string name="name_bri">Bridge Organizer &amp; Bridge Cinematography</string>
+    <string name="pl_engagement">- PHOTOGRAPHY (File Only) \nRp. 2.000.000,00 \nUnlimited Photos, 50++ Edited Files, All Files in USB \n\n
+                                 - VIDEOGRAPHY (Cinematic) \nRp. 2.000.000,00 \n3-5 Minutes Cinematic, All Files in USB \n\n
+                                 - STANDARD ALBUM \nRp. 3.500.000,00 \nUnlimited Photos, 60++ Edited Files, 20x30 Album Magazine(10 Sheet), All Files in USB \n\n
+                                 - PREMIUM ALBUM \nRp. 4.500.000,00 \nUnlimited Photos, 70++ Edited Files, 20x30 Album Magazine(10 Sheet), 2 Frame 16RS, 1 Frame Kolase, All Files in USB \n\n
+                                 - CINEMATIC + TEASER \nRp. 2.500.000,00 \n3-5 Minutes Cinematic, 1 Minutes Teaser, All Files in USB \n\n
+                                 5 Hours Services</string>
+    <string name="pl_pre_wedding">- PHOTOGRAPHY (File Only) \nRp. 3.000.000,00 \nUnlimited Photos, 80++ Edited Files, All Files in USB \n\n
+                                  - FRAME PACKAGE \nRp. 4.000.000,00 \nUnlimited Photos, 100++ Edited Files, 2 Frame 16RS, All Files in USB \n\n
+                                  - VIDEOGRAPHY \nRp. 3.000.000,00 \n3-5 Minutes Cinematic, 1 Minutes Teaser, All Files in USB \n\n
+                                  5 Hours Services</string>
+    <string name="pl_akad">- PHOTOGRAPHY (File Only) \nRp. 3.000.000,00 \nUnlimited Photos, 80++ Edited Files, All Files in USB \n\n
+                            - VIDEOGRAPHY (Cinematic) \nRp. 3.000.000,00 \n3-5 Minutes Cinematic, All Files in USB \n\n
+                            - STANDARD ALBUM \nRp. 3.500.000,00 \nUnlimited Photos, 120++ Edited Files, 20x30 Album Magazine(15 Sheet), All Files in USB \n\n
+                            - PREMIUM ALBUM \nRp. 5.000.000,00 \nUnlimited Photos, 150++ Edited Files, 20x30 Album Magazine(10 Sheet), 2 Frame 16RS, 2 Frame Kolase, All Files in USB \n\n
+                            - CINEMATIC + TEASER \nRp. 3.500.000,00 \n3-5 Minutes Cinematic, 1 Minutes Teaser, All Files in USB \n\n
+                            8 Hours Services</string>
+    <string name="pl_wedding_day">Akad &amp; Reception in One Day \n\n
+                                - PHOTOGRAPHY (File Only) \nRp. 4.000.000,00 \nUnlimited Photos, 100++ Edited Files, All Files in USB \n\n
+                                - VIDEOGRAPHY (Cinematic) \nRp. 4.000.000,00 \n3-5 Minutes Cinematic, All Files in USB \n\n
+                                - STANDARD ALBUM \nRp. 4.500.000,00 \nUnlimited Photos, 120++ Edited Files, 20x30 Album Magazine(15 Sheet), All Files in USB \n\n
+                                - PREMIUM ALBUM \nRp. 5.000.000,00 \nUnlimited Photos, 200++ Edited Files, 20x30 Album Magazine(20 Sheet), 2 Frame 16RS, 2 Frame Kolase, All Files in USB \n\n
+                                - CINEMATIC + TEASER \nRp. 4.500.000,00 \n3-5 Minutes Cinematic, 1 Minutes Teaser, All Files in USB \n\n
+                                1 Day Services</string>
+    <string name="pl_diamond">IDR Rp. 20.000.000,00 \n\n
+                                - ENGAGEMENT \nUnlimited Photos, 50++ Edited Files, 3-5 Minutes Cinematic, All Files in USB \n\n
+                                - PRE-WEDDING \nUnlimited Photos, 50++ Edited Files, 3-5 Minutes Cinematic, All Files in USB \n\n
+                                - AKAD \nUnlimited Photos, 50++ Edited Files, 3-5 Minutes Cinematic, All Files in USB \n\n
+                                - RECEPTION \nUnlimited Photos, 50++ Edited Files, 3-5 Minutes Cinematic, All Files in USB \n\n
+                                - SIRAMAN + MIDODARENI \nUnlimited Photos, 50++ Edited Files, 3-5 Minutes Cinematic, All Files in USB \n\n
+                                - MATERNITY \nUnlimited Photos, 50++ Edited Files, 3-5 Minutes Cinematic, All Files in USB \n\n
+                                - FACILITY \n1 Teaser, 1 Frame 16RS, 1 Photobook Exclusive, 2 Frame Kolase, 1 Aesthetic USB \n\n
+                                Unlimited Services</string>
+    <string name="pl_exclusive">BRIDGE ORGANIZER \n
+                                Full Handle Your \n
+                                - ENGAGEMENT \n
+                                - PRE-WEDDING \n
+                                - AKAD \n
+                                - RECEPTION \n
+                                - SIRAMAN \n
+                                - MIDODARENI \n
+                                Full Handle Event, Wedding Planner, Menyusun Konsep, Unlimited Konsultasi, Pilihan Vendor Terbaik, Technical Meeting Family, Technical Meeting Vendor, Free Balon/Merpati,
+                                Asisten Pribadi, Que Card MC, Rundown Acara, Buku Panduan, Budgetting Vendor \n\n
+                                Unlimited Services
+                                BRIDGE CINEMATOGRAPHY \n
+                                Full Documents Your \n
+                                - ENGAGEMENT \n
+                                - PRE-WEDDING \n
+                                - AKAD \n
+                                - RECEPTION \n
+                                - SIRAMAN \n
+                                - MIDODARENI \n
+                                Unlimited Photos, 80++ Edited Files/Event, 3-6 Minutes Cinematic/Event, 1 Minutes Teaser (All Event), 4 Frame Kolase, 1 Photobook Exclusive, Aesthetic USB,
+                                Free Photo &amp; Video Maternity, All Files in USB \n\n
+                                Unlimited Services</string>
+    <string name="pl_additional_charge">- Additional Day \n   IDR Rp. 1.500.000,00 \n   Extra One Day \n\n
+                                        - Overtime \n   IDR Rp. 250.000,00 \n   Per Hour \n\n
+                                        - Fast Editing Services \n   IDR Rp. 1.500.000,00 \n   Full Editing Photo &amp; Video Finished in a week
+                            </string>
+
+</resources>

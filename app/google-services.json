@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "672041368621",
+    "firebase_url": "https://test-bridge-organizer-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "test-bridge-organizer",
+    "storage_bucket": "test-bridge-organizer.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:672041368621:android:82db724bd6ac339a90cca4",
+        "android_client_info": {
+          "package_name": "com.nikimnafis.bridgeorganizer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "672041368621-r8329sjg1qpqka6020pcn21ve33pv6ss.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDkRnGlkhnlC5KSulgbl_fh0afm6XztMaQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "672041368621-r8329sjg1qpqka6020pcn21ve33pv6ss.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:672041368621:android:1423d54c15b9d43a90cca4",
+        "android_client_info": {
+          "package_name": "com.nikimnafis.testbridgeorganizer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "672041368621-r8329sjg1qpqka6020pcn21ve33pv6ss.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDkRnGlkhnlC5KSulgbl_fh0afm6XztMaQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "672041368621-r8329sjg1qpqka6020pcn21ve33pv6ss.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
