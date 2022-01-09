@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AccountActivity"
+    android:background="@color/white"
+    >
+    <RelativeLayout
+        android:padding="25dp"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            >
+
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:text="Akun anda"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/lato_bold"
+                android:layout_marginTop="80dp"
+                />
+
+            <!--Group Input Nama-->
+            <ImageView
+                android:id="@+id/imgNama"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:background="@drawable/person"
+                android:layout_marginTop="132dp"
+                />
+            <ImageView
+                android:id="@+id/lineNama"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:background="@drawable/line_ver"
+                android:layout_toRightOf="@+id/imgNama"
+                android:layout_marginTop="132dp"
+                />
+            <!--Edit Text Nama-->
+            <EditText
+                android:id="@+id/txt_view_nama"
+                android:inputType="textPersonName"
+                android:layout_width="270dp"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:layout_marginTop="132dp"
+                android:background="@drawable/custom_input"
+                android:textColor="@color/black"
+                android:textColorHint="@color/gray"
+                android:hint="Nama"
+                android:layout_toRightOf="@+id/lineNama"
+                />
+
+            <!--Group Input Nomor Telepon-->
+            <ImageView
+                android:id="@+id/imgTelp"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:background="@drawable/phone2"
+                android:layout_marginTop="207dp"
+                />
+            <ImageView
+                android:id="@+id/lineTelp"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:background="@drawable/line_ver"
+                android:layout_marginTop="207dp"
+                android:layout_toRightOf="@+id/imgTelp"
+                />
+            <!--Edit Text Nomor Telepon-->
+            <EditText
+                android:id="@+id/txt_view_telp"
+                android:inputType="phone"
+                android:layout_width="270dp"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:layout_marginTop="207dp"
+                android:background="@drawable/custom_input"
+                android:textColor="@color/black"
+                android:textColorHint="@color/gray"
+                android:hint="Nomor Telepon"
+                android:layout_toRightOf="@+id/lineTelp"
+                android:maxLength="14"
+                />
+
+            <!--Group Input Email-->
+            <ImageView
+                android:id="@+id/imgEmail"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:background="@drawable/mail"
+                android:layout_marginTop="282dp"
+                />
+            <ImageView
+                android:id="@+id/lineEmail"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:background="@drawable/line_ver"
+                android:layout_marginTop="282dp"
+                android:layout_toRightOf="@+id/imgEmail"
+                />
+            <!--Edit Text Email-->
+            <EditText
+                android:id="@+id/txt_view_email"
+                android:inputType="textEmailAddress"
+                android:layout_width="270dp"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:layout_marginTop="282dp"
+                android:background="@drawable/custom_input"
+                android:textColor="@color/black"
+                android:textColorHint="@color/gray"
+                android:hint="Email"
+                android:layout_toRightOf="@+id/lineEmail"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            >
+            <!--View Group Line-->
+            <LinearLayout
+                android:id="@+id/lineGroup"
+                android:layout_width="360dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="0dp"
+                android:gravity="center">
+                <!--Button Back-->
+                <ImageButton
+                    android:id="@+id/btn_back"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:background="@drawable/arrowleft"
+                    android:onClick="onClick"
+                    android:layout_gravity="left"
+                    />
+                <!--Underline Input Nama-->
+                <ImageView
+                    android:layout_width="320dp"
+                    android:layout_height="25dp"
+                    android:background="@drawable/line"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="118dp"
+                    />
+                <!--Underline Input Nomor Telepon-->
+                <ImageView
+                    android:layout_width="320dp"
+                    android:layout_height="25dp"
+                    android:background="@drawable/line"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="50dp"
+                    />
+                <!--Underline Input Email-->
+                <ImageView
+                    android:layout_width="320dp"
+                    android:layout_height="25dp"
+                    android:background="@drawable/line"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="50dp"
+                    />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btn_update_profil"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textAlignment="gravity"
+                    android:textSize="15sp"
+                    android:textColor="@android:color/white"
+                    android:text="ubah profil"
+                    android:background="@drawable/button_view_profile_background"
+                    android:onClick="onClick"
+                    />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btn_delete_account"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textAlignment="gravity"
+                    android:textSize="15sp"
+                    android:textColor="@android:color/white"
+                    android:text="hapus akun"
+                    android:background="@drawable/button_view_profile_background"
+                    android:onClick="onClick"
+                    />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btn_log_out"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textAlignment="gravity"
+                    android:textSize="15sp"
+                    android:textColor="@android:color/white"
+                    android:text="log out"
+                    android:background="@drawable/button_view_profile_background"
+                    android:onClick="onClick"
+                    />
+
+            </LinearLayout>
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</ScrollView>
