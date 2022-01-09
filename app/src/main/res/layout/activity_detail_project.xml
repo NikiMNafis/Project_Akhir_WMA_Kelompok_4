@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailProjectActivity"
+    android:background="@color/white"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="25dp"
+        android:background="@color/white">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <ImageButton
+                android:id="@+id/btn_back"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:background="@drawable/arrowleft"
+                android:layout_gravity="left"
+                />
+        </RelativeLayout>
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/img_detail_project"
+            android:layout_width="wrap_content"
+            android:layout_height="230dp"
+            android:src="@drawable/graduation"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:layout_marginTop="10dp"
+            android:background="@color/white"
+            app:shapeAppearanceOverlay="@style/roundImageView"/>
+
+<!--        <ImageView-->
+<!--            android:id="@+id/img_detail_project"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="230dp"-->
+<!--            android:src="@drawable/graduation"-->
+<!--            android:layout_marginTop="5dp"/>-->
+
+        <TextView
+            android:id="@+id/txt_nama_project"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama"
+            android:textSize="16sp"
+            android:fontFamily="@font/lato_bold"
+            android:textColor="@color/black"
+            android:layout_below="@+id/img_project"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="7dp"/>
+        <TextView
+            android:id="@+id/txt_detail_project"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="detail"
+            android:textSize="16sp"
+            android:fontFamily="@font/lato_regular"
+            android:textColor="@color/black"
+            android:layout_below="@+id/img_project"
+            android:layout_gravity="left"
+            android:layout_marginTop="7dp"/>
+
+    </LinearLayout>
+</ScrollView>
