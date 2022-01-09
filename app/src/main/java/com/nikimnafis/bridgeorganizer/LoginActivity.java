@@ -39,7 +39,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
 
     private EditText inputEmail, inputPassword;
     boolean passwordVisible;
-    private TextView buttonDaftar, buttonMasukGoogle, buttonLupaPassword;
+    private TextView buttonDaftar, buttonLupaPassword;
     private ImageButton buttonMasuk;
 
     private FirebaseAuth mAuth;
@@ -69,12 +69,10 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
 
         buttonDaftar = findViewById(R.id.btn_daftar);
         buttonMasuk = findViewById(R.id.btn_masuk);
-        buttonMasukGoogle = findViewById(R.id.btn_masuk_google);
         buttonLupaPassword = findViewById(R.id.btn_lupa_pass);
 
         buttonDaftar.setOnClickListener(this);
         buttonMasuk.setOnClickListener(this);
-        buttonMasukGoogle.setOnClickListener(this);
         buttonLupaPassword.setOnClickListener(this);
 
         inputPassword.setOnTouchListener(new View.OnTouchListener() {
