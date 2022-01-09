@@ -140,18 +140,6 @@
             android:layout_marginTop="50dp"
             />
 
-        <!--Masuk dengan Google-->
-        <TextView
-            android:id="@+id/btn_masuk_google"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Masuk dengan Google"
-            android:textSize="16dp"
-            android:textColor="@android:color/holo_blue_dark"
-            android:textAlignment="center"
-            android:layout_below="@+id/lineGroup"
-            android:layout_marginTop="5dp"
-            />
 
         <!--Lupa Password-->
         <TextView
@@ -161,7 +149,6 @@
             android:text="Lupa Kata Sandi?"
             android:textColor="@color/black"
             android:textSize="15dp"
-            android:layout_below="@+id/btn_masuk_google"
             android:textAlignment="center"
             android:layout_marginTop="5dp"
             android:onClick="onClick"
